@@ -95,7 +95,4 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-let locationButton = document.querySelector("#current-location");
-locationButton.addEventListener("click", getCurrentLocation);
-
 searchCity("Barcelona");
